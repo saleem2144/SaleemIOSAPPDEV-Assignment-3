@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52A548282A190FC600F9C33B /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A548272A190FC600F9C33B /* PaymentVC.swift */; };
+		D444CA622A178E140042ABA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D444CA612A178E140042ABA5 /* AppDelegate.swift */; };
+		D444CA642A178E140042ABA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D444CA632A178E140042ABA5 /* SceneDelegate.swift */; };
+		D444CA692A178E140042ABA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D444CA672A178E140042ABA5 /* Main.storyboard */; };
+		D444CA6B2A178E160042ABA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D444CA6A2A178E160042ABA5 /* Assets.xcassets */; };
+		D444CA6E2A178E160042ABA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D444CA6C2A178E160042ABA5 /* LaunchScreen.storyboard */; };
+		D444CA792A178F4F0042ABA5 /* TrainListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D444CA782A178F4F0042ABA5 /* TrainListVC.swift */; };
+		D444CA7B2A178F560042ABA5 /* LandingHomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D444CA7A2A178F560042ABA5 /* LandingHomeScreen.swift */; };
+		D444CA7D2A178FA80042ABA5 /* TravelHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D444CA7C2A178FA80042ABA5 /* TravelHistoryVC.swift */; };
+		D444CA842A178FD20042ABA5 /* TrainListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D444CA822A178FD20042ABA5 /* TrainListTVC.swift */; };
+		D444CA852A178FD20042ABA5 /* TrainListTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D444CA832A178FD20042ABA5 /* TrainListTVC.xib */; };
+		D444CA882A178FDB0042ABA5 /* TravelHistoryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D444CA862A178FDB0042ABA5 /* TravelHistoryTVC.swift */; };
+		D444CA892A178FDB0042ABA5 /* TravelHistoryTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D444CA872A178FDB0042ABA5 /* TravelHistoryTVC.xib */; };
+		D444CA8B2A178FEA0042ABA5 /* CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = D444CA8A2A178FEA0042ABA5 /* CornerRadius.swift */; };
+		D444CA8D2A178FFE0042ABA5 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D444CA8C2A178FFE0042ABA5 /* Alerts.swift */; };
+		D444CA902A1795010042ABA5 /* SeatMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D444CA8F2A1795010042ABA5 /* SeatMapVC.swift */; };
+		D444CA932A1795CF0042ABA5 /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = D444CA922A1795CF0042ABA5 /* Train.swift */; };
+		D444CA952A1795DB0042ABA5 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = D444CA942A1795DB0042ABA5 /* History.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52A548272A190FC600F9C33B /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
+		D444CA5E2A178E140042ABA5 /* BookingSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookingSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D444CA612A178E140042ABA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D444CA632A178E140042ABA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D444CA682A178E140042ABA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D444CA6A2A178E160042ABA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D444CA6D2A178E160042ABA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D444CA6F2A178E160042ABA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D444CA782A178F4F0042ABA5 /* TrainListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainListVC.swift; sourceTree = "<group>"; };
+		D444CA7A2A178F560042ABA5 /* LandingHomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingHomeScreen.swift; sourceTree = "<group>"; };
+		D444CA7C2A178FA80042ABA5 /* TravelHistoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelHistoryVC.swift; sourceTree = "<group>"; };
+		D444CA822A178FD20042ABA5 /* TrainListTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainListTVC.swift; sourceTree = "<group>"; };
+		D444CA832A178FD20042ABA5 /* TrainListTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrainListTVC.xib; sourceTree = "<group>"; };
+		D444CA862A178FDB0042ABA5 /* TravelHistoryTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelHistoryTVC.swift; sourceTree = "<group>"; };
+		D444CA872A178FDB0042ABA5 /* TravelHistoryTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TravelHistoryTVC.xib; sourceTree = "<group>"; };
+		D444CA8A2A178FEA0042ABA5 /* CornerRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerRadius.swift; sourceTree = "<group>"; };
+		D444CA8C2A178FFE0042ABA5 /* Alerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		D444CA8F2A1795010042ABA5 /* SeatMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatMapVC.swift; sourceTree = "<group>"; };
+		D444CA922A1795CF0042ABA5 /* Train.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train.swift; sourceTree = "<group>"; };
+		D444CA942A1795DB0042ABA5 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D444CA5B2A178E140042ABA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		526C568B2A18E9C100F4C418 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D444CA672A178E140042ABA5 /* Main.storyboard */,
+				D444CA6C2A178E160042ABA5 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D444CA552A178E140042ABA5 = {
+			isa = PBXGroup;
+			children = (
+				D444CA602A178E140042ABA5 /* BookingSystem */,
+				D444CA5F2A178E140042ABA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D444CA5F2A178E140042ABA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D444CA5E2A178E140042ABA5 /* BookingSystem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D444CA602A178E140042ABA5 /* BookingSystem */ = {
+			isa = PBXGroup;
+			children = (
+				D444CA8E2A1791E10042ABA5 /* Application */,
+				D444CA752A178E930042ABA5 /* Helpers */,
+				D444CA912A1795C10042ABA5 /* Model */,
+				526C568B2A18E9C100F4C418 /* View */,
+				D444CA772A178F3C0042ABA5 /* Controller */,
+				D444CA762A178E9A0042ABA5 /* Cells */,
+				D444CA6A2A178E160042ABA5 /* Assets.xcassets */,
+				D444CA6F2A178E160042ABA5 /* Info.plist */,
+			);
+			path = BookingSystem;
+			sourceTree = "<group>";
+		};
+		D444CA752A178E930042ABA5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D444CA8A2A178FEA0042ABA5 /* CornerRadius.swift */,
+				D444CA8C2A178FFE0042ABA5 /* Alerts.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D444CA762A178E9A0042ABA5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D444CA822A178FD20042ABA5 /* TrainListTVC.swift */,
+				D444CA832A178FD20042ABA5 /* TrainListTVC.xib */,
+				D444CA862A178FDB0042ABA5 /* TravelHistoryTVC.swift */,
+				D444CA872A178FDB0042ABA5 /* TravelHistoryTVC.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D444CA772A178F3C0042ABA5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D444CA7A2A178F560042ABA5 /* LandingHomeScreen.swift */,
+				D444CA782A178F4F0042ABA5 /* TrainListVC.swift */,
+				D444CA8F2A1795010042ABA5 /* SeatMapVC.swift */,
+				52A548272A190FC600F9C33B /* PaymentVC.swift */,
+				D444CA7C2A178FA80042ABA5 /* TravelHistoryVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D444CA8E2A1791E10042ABA5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D444CA612A178E140042ABA5 /* AppDelegate.swift */,
+				D444CA632A178E140042ABA5 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D444CA912A1795C10042ABA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D444CA922A1795CF0042ABA5 /* Train.swift */,
+				D444CA942A1795DB0042ABA5 /* History.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D444CA5D2A178E140042ABA5 /* BookingSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D444CA722A178E160042ABA5 /* Build configuration list for PBXNativeTarget "BookingSystem" */;
+			buildPhases = (
+				D444CA5A2A178E140042ABA5 /* Sources */,
+				D444CA5B2A178E140042ABA5 /* Frameworks */,
+				D444CA5C2A178E140042ABA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookingSystem;
+			productName = BookingSystem;
+			productReference = D444CA5E2A178E140042ABA5 /* BookingSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D444CA562A178E140042ABA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D444CA5D2A178E140042ABA5 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = D444CA592A178E140042ABA5 /* Build configuration list for PBXProject "BookingSystem" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D444CA552A178E140042ABA5;
+			productRefGroup = D444CA5F2A178E140042ABA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D444CA5D2A178E140042ABA5 /* BookingSystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D444CA5C2A178E140042ABA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D444CA852A178FD20042ABA5 /* TrainListTVC.xib in Resources */,
+				D444CA6E2A178E160042ABA5 /* LaunchScreen.storyboard in Resources */,
+				D444CA6B2A178E160042ABA5 /* Assets.xcassets in Resources */,
+				D444CA892A178FDB0042ABA5 /* TravelHistoryTVC.xib in Resources */,
+				D444CA692A178E140042ABA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D444CA5A2A178E140042ABA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D444CA842A178FD20042ABA5 /* TrainListTVC.swift in Sources */,
+				D444CA622A178E140042ABA5 /* AppDelegate.swift in Sources */,
+				D444CA932A1795CF0042ABA5 /* Train.swift in Sources */,
+				52A548282A190FC600F9C33B /* PaymentVC.swift in Sources */,
+				D444CA7B2A178F560042ABA5 /* LandingHomeScreen.swift in Sources */,
+				D444CA642A178E140042ABA5 /* SceneDelegate.swift in Sources */,
+				D444CA902A1795010042ABA5 /* SeatMapVC.swift in Sources */,
+				D444CA952A1795DB0042ABA5 /* History.swift in Sources */,
+				D444CA792A178F4F0042ABA5 /* TrainListVC.swift in Sources */,
+				D444CA8D2A178FFE0042ABA5 /* Alerts.swift in Sources */,
+				D444CA882A178FDB0042ABA5 /* TravelHistoryTVC.swift in Sources */,
+				D444CA7D2A178FA80042ABA5 /* TravelHistoryVC.swift in Sources */,
+				D444CA8B2A178FEA0042ABA5 /* CornerRadius.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D444CA672A178E140042ABA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D444CA682A178E140042ABA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D444CA6C2A178E160042ABA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D444CA6D2A178E160042ABA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D444CA702A178E160042ABA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D444CA712A178E160042ABA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D444CA732A178E160042ABA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU47W77SU2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BookingSystem/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = booking.BookingSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D444CA742A178E160042ABA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UU47W77SU2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BookingSystem/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = booking.BookingSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D444CA592A178E140042ABA5 /* Build configuration list for PBXProject "BookingSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D444CA702A178E160042ABA5 /* Debug */,
+				D444CA712A178E160042ABA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D444CA722A178E160042ABA5 /* Build configuration list for PBXNativeTarget "BookingSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D444CA732A178E160042ABA5 /* Debug */,
+				D444CA742A178E160042ABA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D444CA562A178E140042ABA5 /* Project object */;
+}
